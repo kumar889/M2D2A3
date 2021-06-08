@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-wrapper{
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: solid skyblue;
+    border-width: thick;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 1100px){
+
+    .page-wrapper{
+        height: unset;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    p{
+        padding: 20px 0px;
+    }
+
+} 
